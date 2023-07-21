@@ -1,17 +1,17 @@
 class: middle, center, title-slide
 count: false
 
-# Steps Towards Differentiable and
-# Scalable Physics Analyses at the LHC
+# Towards Differentiable Physics Analysis
+# at Scale at the LHC and Beyond
 
 .huge.blue[Matthew Feickert]<br>
-.huge[(University of Illinois at Urbana-Champaign)]
+.huge[(University of Wisconsin-Madison)]
 <br><br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[Argonne Lunch Seminar](https://indico.fnal.gov/event/46057/)
+[SNOLAB Seminar Series](https://indico.fnal.gov/event/46057/)
 
-December 8th, 2020
+July 31st, 2023
 
 .middle-logo[]
 
