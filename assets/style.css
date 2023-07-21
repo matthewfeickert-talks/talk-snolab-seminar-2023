@@ -42,6 +42,22 @@ body {
     color: #009933;
 }
 
+.obsdata {
+    color: #00a620;
+}
+
+.auxdata {
+    color: #a3130f;
+}
+
+.freepars {
+    color: #0495fc;
+}
+
+.conpars {
+    color: #9c2cfc;
+}
+
 .neos-orange {
   color: #ff802c;
 }
@@ -92,6 +108,14 @@ body {
     bottom: 2em;
 }
 
+.code-tiny-tiny {
+    font-size: 0.4em;
+}
+
+.code-tiny {
+    font-size: 0.5em;
+}
+
 .tiny {
     font-size: 0.6em;
 }
@@ -110,6 +134,10 @@ body {
 
 .huge {
     font-size: 1.5em;
+}
+
+.huge-cite {
+    font-size: 1.36em;
 }
 
 a {
@@ -390,10 +418,10 @@ td {
     content: '';
     background: url("../assets/logos/logo_institution.png") no-repeat;
     background-size: 100% 100%;
-    width: 288px;
-    height: 50px;
+    width: 307px;
+    height: 92px;
     position: absolute;
-    bottom: 2em;
+    bottom: 1em;
     left: 3.3em;
     display: inline-block;
 }

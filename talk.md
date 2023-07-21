@@ -9,7 +9,7 @@ count: false
 <br><br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[SNOLAB Seminar Series](https://indico.fnal.gov/event/46057/)
+[SNOLAB Seminar Series](FILL IN WHEN HAVE URL)
 
 July 31st, 2023
 
