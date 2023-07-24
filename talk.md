@@ -16,6 +16,21 @@ July 31st, 2023
 .middle-logo[]
 
 ---
+# Talk Notes
+
+* Seminars are held on Mondays at 13:00 Eastern time (12:00 US Central)
+* .bold[Talk time:]
+   - Talk: 50 minutes
+   - Questions: 10 minutes
+* .bold[Audience:] audience is quite broad, ranging from undergraduate students to senior scientists
+* .bold[Topics:]
+   - Data science tools
+   - Open source community
+   - Building at scale with IRIS-HEP
+   - Automatic differentiation
+   - Analysis reuse brings wins (RECAST/REANA)
+
+---
 # Collaborators
 
 .grid[
