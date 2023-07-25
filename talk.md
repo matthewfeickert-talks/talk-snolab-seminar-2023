@@ -508,6 +508,13 @@ class: focus-slide, center
 ]
 
 ---
+# REVISE
+
+When I was discussing differentiable analysis at [PyHEP.dev 2023](https://indico.cern.ch/event/1234156/) last week, there was a brilliant summary of how we do this with rectangular cuts by hand by lots of heroic labor by Ph.D. candidates
+
+> .huge.center[In optimization replace the .bold[grad] student with .bold[gradients]. &mdash; Matt Bellis]
+
+---
 # New Art: Analysis as a Differentiable Program
 .kol-1-2[
 - Provide differentiable analogue to histograms with kernel density estimation (KDE) or softmax
