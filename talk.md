@@ -515,6 +515,21 @@ When I was discussing differentiable analysis at [PyHEP.dev 2023](https://indico
 > .huge.center[In optimization replace the .bold[grad] student with .bold[gradients]. &mdash; Matt Bellis]
 
 ---
+# Lukas's talk at MODE
+
+* https://indico.cern.ch/event/1242538/contributions/5455218/
+* Slide 17 shows that things scale if differentiable
+
+---
+# Gordon's talk at MODE
+
+* https://indico.cern.ch/event/1242538/contributions/5432836/
+* Shows marrying cuts and DNNs now
+* Follow up with Jerry on their question
+   - c.f. https://openreview.net/forum?id=JZMR727O29
+
+
+---
 # New Art: Analysis as a Differentiable Program
 .kol-1-2[
 - Provide differentiable analogue to histograms with kernel density estimation (KDE) or softmax
