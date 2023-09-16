@@ -1,6 +1,6 @@
 # Towards differentiable physics analysis at scale at the LHC and beyond
 
-Talk given as part of SNOLAB's 2023 seminar series on July 31st, 2023.
+Talk given as part of SNOLAB's 2023 seminar series on September 18th, 2023.
 
 **Abstract**
 

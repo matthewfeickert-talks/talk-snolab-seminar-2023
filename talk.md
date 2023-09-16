@@ -11,7 +11,7 @@ count: false
 
 [SNOLAB Seminar Series](FILL IN WHEN HAVE URL)
 
-July 31st, 2023
+September 18th, 2023
 
 .middle-logo[]
 
@@ -29,6 +29,7 @@ July 31st, 2023
    - Building at scale with IRIS-HEP
    - Automatic differentiation
    - Analysis reuse brings wins (RECAST/REANA)
+* .bold[Abstract:] As the High-Luminosity Large Hadron Collider (HL-LHC) era looms of horizon for physics analysis at the LHC experiments there are multiple challenges to be overcome to efficiently analyze and extract the most scientific value out of these unique and valuable data. In this seminar I will present a high-level overview of how applications of data science tools from the modern scientific open source community, techniques and applications from the field of automatic differentiation, and strategies for enabling analysis reuse can be leveraged to achieve robust data analysis workflows at the HL-LHC scale. I will also offer proposals for how these tools and techniques can be applied beyond the particle physics community to the broader scientific computing landscape.
 
 ---
 # Collaborators
