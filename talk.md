@@ -99,6 +99,51 @@ class: focus-slide, center
 .huge.center.bold[Show live (toy) example of how easy it can be to get started] -->
 
 ---
+# High Energy Physics at the LHC
+
+.kol-1-2.center[
+<p style="text-align:center;">
+   <a href="https://home.cern/science/accelerators/large-hadron-collider/">
+      <img src="figures/LHC.jpg"; width=100%>
+   </a>
+</p>
+.caption[LHC]
+]
+.kol-1-2.center[
+<p style="text-align:center;">
+   <a href="https://atlas.cern/">
+      <img src="figures/ATLAS_TRex.png"; width=100%>
+   </a>
+</p>
+.caption[ATLAS]
+]
+.kol-1-1[
+.kol-1-2.center[
+<p style="text-align:center;">
+   <a href="https://twitter.com/HEPfeickert/status/1269406145858469891?s=20">
+      <img src="figures/SM_mug.jpg"; width=45%>
+   </a>
+</p>
+]
+.kol-1-2.center[
+.kol-1-2.center[
+<p style="text-align:center;">
+   <a href="https://twitter.com/HEPfeickert/status/1269406145858469891?s=20">
+      <img src="figures/ParticleZoo_Higgs.jpg"; width=100%>
+   </a>
+</p>
+]
+.kol-1-2.center[
+<p style="text-align:center;">
+   <a href="https://twitter.com/HEPfeickert/status/1269406145858469891?s=20">
+      <img src="figures/ParticleZoo_DarkMatter.jpg"; width=85%>
+   </a>
+</p>
+]
+]
+]
+
+---
 # Goals of Physics Analysis at the LHC
 
 .kol-1-1[
