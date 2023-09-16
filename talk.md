@@ -13,8 +13,6 @@ count: false
 
 September 18th, 2023
 
-.middle-logo[]
-
 ---
 # Talk Notes
 

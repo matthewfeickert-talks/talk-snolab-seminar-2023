@@ -34,6 +34,10 @@ body {
     color: #0000ff;
 }
 
+.green {
+    color: #008000;
+}
+
 .gray {
     color: #808080;
 }
@@ -56,14 +60,6 @@ body {
 
 .conpars {
     color: #9c2cfc;
-}
-
-.neos-orange {
-  color: #ff802c;
-}
-
-.neos-blue {
-  color: #00becd;
 }
 
 .italic {
@@ -232,7 +228,7 @@ td {
     display: block;
     text-align: center;
     font-size: 0.8em;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .circle img {
@@ -421,35 +417,34 @@ td {
     width: 307px;
     height: 92px;
     position: absolute;
-    bottom: 1em;
+    bottom: 2em;
     left: 3.3em;
     display: inline-block;
 }
 
-/* Hack to get pyhf logo on */
-.title-slide:before {
-    content: '';
-    /* background: url("https://iris-hep.org/assets/logos/pyhf-logo.png") no-repeat; */
-    background: url("../assets/logos/logo_ATLAS.png") no-repeat;
-    background-size: 100% 100%;
-    width: 243px;
-    height: 128px;
-    position: absolute;
-    bottom: 0.8em;
-    right: 3.3em;
-    display: inline-block;
-}
-
-/* Even worse hack to get another logo on */
+/* Hack to get middle logo on*/
 .middle-logo {
     content: '';
     background: url("../assets/logos/logo_IRIS-HEP.png") no-repeat;
     background-size: 100% 100%;
-    width: 163px;
-    height: 90px;
+    width: 196px;
+    height: 108px;
     position: absolute;
-    bottom: 1em;
-    left: 26em;
+    bottom: 1.8em;
+    left: 25em;
+    display: inline-block;
+}
+
+/* Even worse hack to get another logo on */
+.title-slide:before {
+    content: '';
+    background: url("../assets/logos/logo_IRIS-HEP.png") no-repeat;
+    background-size: 100% 100%;
+    width: 196px;
+    height: 108px;
+    position: absolute;
+    bottom: 1.8em;
+    right: 3.3em;
     display: inline-block;
 }
 
