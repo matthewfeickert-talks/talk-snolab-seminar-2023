@@ -282,6 +282,12 @@ $$
 ]
 
 ---
+# Automatic Differentiation
+
+* TODO
+* Explain forward and backwards modes
+
+---
 # Differentiable Programming
 
 <br>
