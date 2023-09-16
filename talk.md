@@ -144,6 +144,39 @@ class: focus-slide, center
 ]
 
 ---
+# Opportunities and Challenges of the HL-LHC
+<!--  -->
+<p style="text-align:center;">
+   <a href="https://hilumilhc.web.cern.ch/content/hl-lhc-project">
+      <img src="figures/HL-LHC_schedule.jpg"; width=70%>
+   </a>
+</p>
+
+* Increase in luminosity of roughly order of magnitude
+   - $3$ - $4$ $\mathrm{ab}^{-1}$ (factor of 20-25 from Run-2)
+* More data means able to probe regions of parameter space well for physics searches
+* Challenge to be able to take, record, store, and analyze the data
+* Have only a few years to figure this out
+
+---
+# Opportunities and Challenges of the HL-LHC
+
+* Summarize the scale and complexity of the challenge
+* Put into concrete terms the analysis problems that will need to be overcome to reach this
+
+---
+# IRIS-HEP
+
+* Summarize the project mission
+* Describe the research focus areas
+* Explain what Analysis Systems is doing to attack these problems
+
+---
+# IRIS-HEP Analysis Systems
+
+* Explain what Analysis Systems is doing to attack these problems
+
+---
 # Goals of Physics Analysis at the LHC
 
 .kol-1-1[
