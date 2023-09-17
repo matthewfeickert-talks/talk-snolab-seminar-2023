@@ -192,6 +192,80 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
 ]
 
 ---
+# Ecosystems
+
+<p style="text-align:center;">
+   <a href="https://coiled.io/blog/pydata-dask/">
+      <img src="figures/pydata-ecosystem-pycon-2017.png"; width=55%>
+   </a>
+</p>
+
+.center.large[
+In his [PyCon 2017 keynote](https://youtu.be/ZyjCqQEUa8o), Jake VanderPlas gave us the iconic "PyData ecosystem" image
+]
+
+---
+# PyHEP ecosystem
+
+<p style="text-align:center;">
+   <a href="https://indico.cern.ch/event/1140031/">
+      <img src="figures/pyhep-ecosystem.svg"; width=55%>
+   </a>
+</p>
+
+.center.large[
+In his [2022 PyHEP topical meeting update](https://indico.cern.ch/event/1140031/), Jim Pivarski gave us a view for the PyHEP ecosystem
+]
+
+---
+# Rapid rise of Python for analysis in HEP
+
+<p style="text-align:center;">
+   <a href="https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf">
+      <img src="figures/github-language-fullstudy-for-review.svg"; width=85%>
+   </a>
+</p>
+.center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw)]
+
+.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
+# Explosion of Scientific Python (NumPy, etc.)
+
+<p style="text-align:center;">
+   <a href="https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf">
+      <img src="figures/github-package-fullstudy-for-review.svg"; width=85%>
+   </a>
+</p>
+.center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw)]
+
+.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
+# Community adoption
+
+<p style="text-align:center;">
+   <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
+      <img src="figures/pip-installs-summary.svg"; width=85%>
+   </a>
+</p>
+.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs)]
+
+.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
+# Community adoption with ecosystem growth
+
+<p style="text-align:center;">
+   <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
+      <img src="figures/pip-installs-by-package.svg"; width=85%>
+   </a>
+</p>
+.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs)]
+
+.footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
+
+---
 # Winning through open source
 
 * Explain open source collaborations
@@ -850,6 +924,7 @@ Please checkout the many resources we have starting with the [website](https://s
 # References
 
 1. Lukas Heinrich, .italic[[Distributed Gradients for Differentiable Analysis](https://indico.cern.ch/event/960587/contributions/4070325/)], [Future Analysis Systems and Facilities Workshop](https://indico.cern.ch/event/960587/), 2020.
+2. Jim Pivarski, .italic[[History and Adoption of Programming Languages in NHEP](https://github.com/jpivarski-talks/2022-02-08-jlab-roundtable-language-history)], [Software & Computing Round Table](https://indico.jlab.org/event/505/#day-2022-02-08), 2022.
 
 ---
 # References
