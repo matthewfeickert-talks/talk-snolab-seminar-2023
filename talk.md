@@ -225,7 +225,7 @@ In his [2022 PyHEP topical meeting update](https://indico.cern.ch/event/1140031/
       <img src="figures/github-language-fullstudy-for-review.svg"; width=85%>
    </a>
 </p>
-.center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw)]
+.center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw) by file]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
@@ -237,19 +237,19 @@ In his [2022 PyHEP topical meeting update](https://indico.cern.ch/event/1140031/
       <img src="figures/github-package-fullstudy-for-review.svg"; width=85%>
    </a>
 </p>
-.center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw)]
+.center.large["import XYZ" matches in GitHub repos for users who fork [CMSSW](https://github.com/cms-sw/cmssw) by library/tool]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
 ---
-# Community adoption
+# Community adoption ...
 
 <p style="text-align:center;">
    <a href="https://github.com/matthewfeickert/talk-analysis-ecosystems-workshop-2022/issues/1">
       <img src="figures/pip-installs-summary.svg"; width=85%>
    </a>
 </p>
-.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs)]
+.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs) in aggregate]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
@@ -261,15 +261,55 @@ In his [2022 PyHEP topical meeting update](https://indico.cern.ch/event/1140031/
       <img src="figures/pip-installs-by-package.svg"; width=85%>
    </a>
 </p>
-.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs)]
+.center.large["pip install XYZ" download rate for MacOS/Windows (no batch jobs) by package]
+.caption[Aided by interoperable design]
 
 .footnote[[Modern Python analysis ecosystem for High Energy Physics](https://matthewfeickert.github.io/talk-doepy-python-exchange-2022/2022-06-29.pdf), Jim Pivarski, Matthew Feickert, Gordon Watts]
 
 ---
-# Winning through open source
+# Broader scientific open source collaborations
 
-* Explain open source collaborations
-* Show PyHEP view of the Scientific Python stack
+<br>
+
+.kol-1-1[
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://github.com/dask-contrib/dask-awkward">
+      <img src="figures/dask-horizontal.svg"; width=100%>
+   </a>
+</p>
+]
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://scikit-build-core.readthedocs.io/">
+      <img src="figures/scikit_build_logo.svg"; width=100%>
+   </a>
+</p>
+]
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://numfocus.org/">
+      <img src="figures/numfocus-logo.png"; width=100%>
+   </a>
+</p>
+]
+]
+<!--  -->
+.kol-1-3[
+.center.huge[[dask-awkward](https://github.com/dask-contrib/dask-awkward)]
+
+.center[Native Dask collection for partioned Awkward arrays for analysis at scale]
+]
+.kol-1-3[
+.center.huge[[scikit-build-core](https://scikit-build-core.readthedocs.io/)]
+
+.center[Next generation of build tools for scientific packaging]
+]
+.kol-1-3[
+.center.huge[[NumFOCUS](https://numfocus.org/)]
+
+.center[Organizing and supporting scientific open source]
+]
 
 ---
 # Goals of Physics Analysis at the LHC
