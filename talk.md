@@ -169,13 +169,12 @@ class: focus-slide, center
 
 .kol-1-2[
 .huge[
-* Raw resource gaps
-* Scalability of the distributed computing cyberinfrastructure
-* Analysis at scale
-* Sustainability
+* Addressing [computing gaps](https://inspirehep.net/literature/2628983) in:
+   - Raw resource gaps
+   - Scalability of the distributed computing cyberinfrastructure
+   - Analysis at scale
+   - Sustainability
 ]
-* Summarize the project mission
-* Describe the research focus areas
 * Explain what Analysis Systems is doing to attack these problems
 ]
 .kol-1-2[
@@ -190,18 +189,35 @@ class: focus-slide, center
 ---
 # IRIS-HEP
 
+
+.kol-1-1[
 .kol-1-2[
 .huge[
-* Describe the research focus areas
+Designed around [focus areas](https://inspirehep.net/literature/2628983)
+]
+.large[
+* Intellectual Hub
+* Analysis Systems
+* Data Organization, Management, and Access (DOMA)
+* Innovative Algorithms
+* Translational Research for AI
+* Scalable Systems Laboratory (SSL)
+* OSG Services for LHC (OSG-LHC)
 ]
 ]
 .kol-1-2[
+<br><br>
 <p style="text-align:center;">
    <a href="https://iris-hep.org/">
-      <img src="assets/logos/logo_IRIS-HEP.png"; width=100%>
+      <img src="figures/IRIS-HEP-executive-board.png"; width=100%>
    </a>
 </p>
-.caption[Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)]
+.caption[IRIS-HEP Institute Structure]
+]
+]
+
+.large[
+community engagement with .bold[training, education, and outreach] and .bold[institute grand challenges]
 ]
 
 ---
