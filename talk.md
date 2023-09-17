@@ -167,14 +167,59 @@ class: focus-slide, center
 ---
 # IRIS-HEP
 
+.kol-1-2[
+.huge[
+* Raw resource gaps
+* Scalability of the distributed computing cyberinfrastructure
+* Analysis at scale
+* Sustainability
+]
 * Summarize the project mission
 * Describe the research focus areas
 * Explain what Analysis Systems is doing to attack these problems
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/">
+      <img src="assets/logos/logo_IRIS-HEP.png"; width=100%>
+   </a>
+</p>
+.caption[Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)]
+]
+
+---
+# IRIS-HEP
+
+.kol-1-2[
+.huge[
+* Describe the research focus areas
+]
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/">
+      <img src="assets/logos/logo_IRIS-HEP.png"; width=100%>
+   </a>
+</p>
+.caption[Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)]
+]
 
 ---
 # IRIS-HEP Analysis Systems
 
 * Explain what Analysis Systems is doing to attack these problems
+
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/as.html">
+      <img src="figures/cabinetry-vertical-slice.png"; width=80%>
+   </a>
+</p>
+
+---
+# Winning through open source
+
+* Explain open source collaborations
+* Show PyHEP view of the Scientific Python stack
 
 ---
 # Goals of Physics Analysis at the LHC
