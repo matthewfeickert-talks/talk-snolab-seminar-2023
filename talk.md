@@ -350,8 +350,8 @@ Provide constraints on models through setting best limits
 .bold.center[Symbolic]
 .center.width-100[![carbon_fprime_symbolic](figures/carbon_fprime_symbolic.png)]
 ]
-.kol-2-8[
-<br><br>
+.kol-2-8.huge[
+<br>
 - Exact: .blue[Yes]
 - Flexible: .red[No]
 ]
@@ -368,8 +368,8 @@ Provide constraints on models through setting best limits
 .bold.center[Numeric]
 .center.width-70[![carbon_fprime_numeric](figures/carbon_fprime_numeric.png)]
 ]
-.kol-2-8[
-<br><br>
+.kol-2-8.huge[
+<br>
 - Exact: .red[No]
 - Flexible: .blue[Yes]
 ]
@@ -386,8 +386,8 @@ Provide constraints on models through setting best limits
 .bold.center[Automatic]
 .center.width-80[![carbon_fprime_automatic](figures/carbon_fprime_automatic.png)]
 ]
-.kol-2-8[
-<br><br>
+.kol-2-8.huge[
+<br>
 - Exact: .blue[Yes]
 - Flexible: .blue[Yes]
 ]
@@ -846,6 +846,11 @@ class: focus-slide, center
 <br><br>
 Differentiating through PyTorch, JAX, and TensorFlow using FaaS
 ]
+
+---
+# TODO: Analysis Reuse
+
+* X
 
 ---
 # Summary
