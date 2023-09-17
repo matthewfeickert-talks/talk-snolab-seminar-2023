@@ -115,8 +115,9 @@ class: focus-slide, center
    - Scalability of the distributed computing cyberinfrastructure
    - Analysis at scale
    - Sustainability
+* LHC experiments as stakeholders
+* LHC operations as partners
 ]
-* Explain what Analysis Systems is doing to attack these problems
 ]
 .kol-1-2[
 <p style="text-align:center;">
@@ -129,7 +130,6 @@ class: focus-slide, center
 
 ---
 # IRIS-HEP
-
 
 .kol-1-1[
 .kol-1-2[
@@ -147,7 +147,7 @@ Designed around [focus areas](https://inspirehep.net/literature/2628983)
 ]
 ]
 .kol-1-2[
-<br><br>
+<br>
 <p style="text-align:center;">
    <a href="https://iris-hep.org/">
       <img src="figures/IRIS-HEP-executive-board.png"; width=100%>
@@ -161,16 +161,35 @@ Designed around [focus areas](https://inspirehep.net/literature/2628983)
 community engagement with .bold[training, education, and outreach] and .bold[institute grand challenges]
 ]
 
+<!-- https://github.com/iris-hep/analysis-grand-challenge/blob/382e512d39e9b62fc4d9da2c69e454dfc718c5f6/docs/index.rst#more-details-what-is-being-investigated-in-the-agc-context -->
 ---
 # IRIS-HEP Analysis Systems
 
-* Explain what Analysis Systems is doing to attack these problems
-
 <p style="text-align:center;">
    <a href="https://iris-hep.org/as.html">
-      <img src="figures/cabinetry-vertical-slice.png"; width=80%>
+      <img src="figures/cabinetry-vertical-slice.png"; width=75%>
    </a>
 </p>
+
+.huge[
+* Deployable analysis pipelines that physicists time-to-insight
+   - Tools integrate into the broader scientific Python computing ecosystem
+* Analysis reuse as deployment feature
+]
+
+---
+# IRIS-HEP Analysis Systems
+
+<p style="text-align:center;">
+   <a href="https://github.com/iris-hep/analysis-grand-challenge/blob/382e512d39e9b62fc4d9da2c69e454dfc718c5f6/docs/taskbackground.rst">
+      <img src="figures/iris-hep_agc_ml_pipeline.png"; width=80%>
+   </a>
+</p>
+
+.huge[
+* Integrating machine learning training and inference into analysis workflows
+   - c.f. [Machine Learning for Columnar High Energy Physics Analysis](https://indico.jlab.org/event/459/contributions/11692/), Elliott Kauffman, CHEP 2023
+]
 
 ---
 # Winning through open source
