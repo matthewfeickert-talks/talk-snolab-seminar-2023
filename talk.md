@@ -96,7 +96,7 @@ class: focus-slide, center
 .large[
 * Increase in luminosity of roughly order of magnitude
    - $3$ - $4$ $\mathrm{ab}^{-1}$ (factor of 20-25 from Run-2 delivered)
-* Challenge to be able to .bold[record, store, and analyze] the data
+* Boon for measurements constrained by statistical uncertainties, searches for rare processes
 ]
 
 ---
@@ -119,6 +119,8 @@ class: focus-slide, center
    </a>
 </p>
 ]
+
+.center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
 
 ---
 # IRIS-HEP
