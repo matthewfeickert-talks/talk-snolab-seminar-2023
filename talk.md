@@ -593,7 +593,7 @@ $$
 </p>
 ]
 
-.bold.center[Having access to the gradients makes the fit orders of magnitude faster than finite difference]
+.bold.center[Having access to the gradients can make the fit orders of magnitude faster than finite difference]
 
 ---
 # HEP Example: Likelihood Gradients
@@ -611,7 +611,7 @@ $$
 </p>
 ]
 
-.bold.center[Having access to the gradients makes the fit orders of magnitude faster than finite difference]
+.bold.center[Having access to the gradients can make the fit orders of magnitude faster than finite difference]
 
 ---
 class: focus-slide, center
