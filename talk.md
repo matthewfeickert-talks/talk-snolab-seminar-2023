@@ -151,12 +151,12 @@ class: focus-slide, center
 # IRIS-HEP
 
 .kol-1-2[
+<p style="text-align:center;">
+   <a href="https://inspirehep.net/literature/2628983">
+      <img src="figures/IRIS-HEP-HL-LHC-gaps.png"; width=90%>
+   </a>
+</p>
 .huge[
-* Addressing [computing gaps](https://inspirehep.net/literature/2628983) in:
-   - Raw resource gaps
-   - Scalability of the distributed computing cyberinfrastructure
-   - Analysis at scale
-   - Sustainability
 * LHC experiments as stakeholders
 * LHC operations as partners
 ]
