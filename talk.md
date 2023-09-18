@@ -711,13 +711,13 @@ $$
 class: focus-slide, center
 # Enable new techniques with autodiff
 
-.huge.bold.center[Familiar (toy) example: Optimizing a cut for an analysis]
+.huge.bold.center[Familiar (toy) example: Optimizing selection "cut" for an analysis]
 
 ---
 # Discriminate Signal and Background
 <!--  -->
 * Counting experiment for presence of signal process
-* Place discriminate cut on observable $x$ to maximize significance
+* Place discriminate selection cut on observable $x$ to maximize significance
    - Significance: $\sqrt{2 (S+B) \log(1 + \frac{S}{B})-2S}$ (for small $S/B$: significance $\to S/\sqrt{B}$)
 
 .footnote[Example inspired by Alexander Held's [example of a differentiable analysis](https://github.com/alexander-held/differentiable-analysis-example/)]
