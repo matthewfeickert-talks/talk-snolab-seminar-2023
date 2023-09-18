@@ -214,7 +214,7 @@ community engagement with .bold[training, education, and outreach] and .bold[ins
 </p>
 
 .huge[
-* Deployable analysis pipelines that physicists time-to-insight
+* Deployable analysis pipelines that reduces physicist time-to-insight
    - Tools integrate into the broader scientific Python computing ecosystem
 * Analysis reuse as deployment feature
 ]
