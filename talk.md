@@ -102,8 +102,23 @@ class: focus-slide, center
 ---
 # Opportunities and Challenges of the HL-LHC
 
-* Summarize the scale and complexity of the challenge
-* Put into concrete terms the analysis problems that will need to be overcome to reach this
+.center.large[Challenge to be able to .bold[record, store, and analyze] the data]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/2803119?ln=en">
+      <img src="figures/HL-LHC-cpu-projections-atlas.png"; width=95%>
+   </a>
+</p>
+]
+.kol-1-2[
+<br>
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/2815292?ln=en">
+      <img src="figures/HL-LHC-cpu-projections-cms.png"; width=100%>
+   </a>
+</p>
+]
 
 ---
 # IRIS-HEP
