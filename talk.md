@@ -707,11 +707,11 @@ class: focus-slide, center
 # Accessing the Gradient
 
 .kol-2-5.large[
-- Most importantly though, with the differentiable model we have access to the gradient
+* Most importantly though, with the differentiable model we have access to the gradient
    - $\partial_{x} f(x)$
-- So can find the maximum significance at the point where the gradient of the significance is zero
+* So can find the maximum significance at the point where the gradient of the significance is zero
    - $\partial_{x} f(x) = 0$
-- With the gradient in hand this cries out for automated optimization!
+* With the gradient in hand this cries out for automated optimization!
 ]
 .kol-3-5.center[
 <p style="text-align:center;">
@@ -723,38 +723,16 @@ class: focus-slide, center
 # Automated Optimzation
 
 .kol-2-5.large[
-- With a simple gradient descent algorithm can easily automate the significance optimization
-- For this toy example, obviously less efficient then cut and count scan
-- Gradient methods apply well in higher dimensional problems
-- Allows for the "cut" to become a parameter that can be differentiated through for the larger analysis
+* With a simple gradient descent algorithm can easily automate the significance optimization
+* For this toy example, obviously less efficient then cut and count scan
+* Gradient methods apply well in higher dimensional problems
+* Allows for the "cut" to become a parameter that can be differentiated through for the larger analysis
 ]
 .kol-3-5.center[
 .width-100[![automated_optimization](figures/automated_optimization.png)]
 
 <!-- TODO: Make this an animated GIF -->
 ]
-
----
-# REVISE
-
-When I was discussing differentiable analysis at [PyHEP.dev 2023](https://indico.cern.ch/event/1234156/) last week, there was a brilliant summary of how we do this with rectangular cuts by hand by lots of heroic labor by Ph.D. candidates
-
-> .huge.center[In optimization replace the .bold[grad] student with .bold[gradients]. &mdash; Matt Bellis]
-
----
-# Lukas's talk at MODE
-
-* https://indico.cern.ch/event/1242538/contributions/5455218/
-* Slide 17 shows that things scale if differentiable
-
----
-# Gordon's talk at MODE
-
-* https://indico.cern.ch/event/1242538/contributions/5432836/
-* Shows marrying cuts and DNNs now
-* Follow up with Jerry on their question
-   - c.f. https://openreview.net/forum?id=JZMR727O29
-
 
 ---
 # New Art: Analysis as a Differentiable Program
@@ -797,6 +775,21 @@ When I was discussing differentiable analysis at [PyHEP.dev 2023](https://indico
    - $1$: Signal-like
 - Binned contents channel input for `pyhf` model
 ]
+
+---
+# Lukas's talk at MODE
+
+* https://indico.cern.ch/event/1242538/contributions/5455218/
+* Slide 17 shows that things scale if differentiable
+
+---
+# Gordon's talk at MODE
+
+* https://indico.cern.ch/event/1242538/contributions/5432836/
+* Shows marrying cuts and DNNs now
+* Follow up with Jerry on their question
+   - c.f. https://openreview.net/forum?id=JZMR727O29
+
 
 ---
 # Differentiable Ecosystem
@@ -867,6 +860,7 @@ Differentiating through PyTorch, JAX, and TensorFlow using FaaS
 - Automatic differentiation gives a powerful tool in the form of differentiable programming
    - Exploitation of .bold[gradient for optimization]
    - .bold[End-to-end optimization] of systems and analyses
+   - Update analysis optimizaiton from .bold[grad]uate student descent to .bold[gradient] descent. &mdash; Matt Bellis
 - Scalable workflows are a requirement for LHC scale analyses
    - Distributed .bold[Functions as a Service] offer powerful scaling
    - Heterogeneous architectures can be employed
