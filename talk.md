@@ -512,9 +512,9 @@ $$
 
 ---
 class: focus-slide, center
-# Case study: Autodiff improving analyses
+# Case study:<br> Automatic differentiation improving analyses
 
-.huge.bold.center[Application of autodiff in `pyhf`]
+.huge.bold.center[Application of automatic differentiation in `pyhf`]
 
 ---
 # HistFactory Model
@@ -843,51 +843,71 @@ class: focus-slide, center
 ]
 
 ---
-# Lukas's talk at MODE
-
-* https://indico.cern.ch/event/1242538/contributions/5455218/
-* Slide 17 shows that things scale if differentiable
-
----
-# Gordon's talk at MODE
-
-* https://indico.cern.ch/event/1242538/contributions/5432836/
-* Shows marrying cuts and DNNs now
-* Follow up with Jerry on their question
-   - c.f. https://openreview.net/forum?id=JZMR727O29
-
-
----
-# Differentiable Ecosystem
-
-.kol-1-3.center[
-.width-100[[![gradhep](https://avatars1.githubusercontent.com/u/65067820)](https://hepsoftwarefoundation.org/activities/differentiablecomputing.html)]
-
-[gradhep](https://hepsoftwarefoundation.org/activities/differentiablecomputing.html)
-]
-.kol-1-3.center[
-.width-100[[![neos_logo](https://raw.githubusercontent.com/gradhep/neos/master/nbs/assets/neos_logo.png)](https://github.com/gradhep/neos)]
-
-[neos](https://github.com/gradhep/neos), [INFERNO](https://inspirehep.net/literature/1677673)
-]
-.kol-1-3.center[
-<br><br>
-.width-100[[![MLE_grad_map_full](figures/Acts_autodiff_talk.png)](https://indico.cern.ch/event/941278/contributions/4084835/)]
-
-<br><br><br>
-[ACTS](https://iris-hep.org/projects/acts.html)
-]
-
-<br>
-.kol-1-1[
-.bold.center[Groups, libraries, and applications growing rapidly]
-]
-
----
 class: focus-slide, center
 # Scalable solutions
 
 .huge.bold.center[Differentiable analyses at LHC scale]
+
+---
+# Why do this?
+
+.footnote[Taking a [slide](https://indico.ph.tum.de/event/7113/contributions/7705/) from Lukas Heinrich]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <img src="figures/freeman-dyson.png"; width=60%>
+</p>
+]
+.kol-1-2.huge[
+<br><br>
+.bold[New directions in science are launched by new tools much more often than by new concepts.] &mdash; Freeman Dyson
+]
+
+---
+# Scaling is reasonable
+
+From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming for physics engagement with the broader community showed multiple large scale workflows
+
+.bold[If] things are differentiable, shouldn't be scared of .bold[large-scale codebases and applications]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://www.munich-iapbp.de/probabilistic-programming/">
+      <img src="figures/MIAPbP-workshop-poster.png"; width=90%>
+   </a>
+</p>
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://indico.ph.tum.de/event/7314/contributions/7432/">
+      <img src="figures/miapbp-workshop-scaling-ad.png"; width=90%>
+   </a>
+</p>
+.center[[Nicolas Gauger, MIAPbP Workshop 2023](https://indico.ph.tum.de/event/7314/contributions/7432/)]
+]
+
+---
+# Gradient Passing
+
+.kol-2-5[
+- Real world high energy physics analyses have various challenges:
+   - Computations highly complex chains
+   - Not implementable in a single framework
+   - Asynchronous multi-step procedures
+   - Strong need for distributed computing
+- Passing of gradients .bold[between] different implementations and services
+   - Large scale machine learning in industry needs to do this to train models
+- Possible solution to allow for distributed computations at scale exploiting gradients
+]
+.kol-3-5.center[
+.width-100[[![metadiff](figures/metadiff.png)](https://indico.cern.ch/event/960587/contributions/4070325/)]
+.caption[[Differentiating through PyTorch, JAX, and TensorFlow using FaaS](https://indico.cern.ch/event/960587/contributions/4070325/), Lukas Heinrich]
+]
+
+---
+# Analysis Reuse
+
+*
 
 ---
 # Analysis Systems through Lens of Stat Inference
@@ -896,24 +916,6 @@ class: focus-slide, center
 
 - Accelerating fitting (reducing time to insight (statistical inference)!)
 - [Analysis Systems](https://iris-hep.org/as.html) pipeline has beta infrastructure for the final statistical inference stages with [`pyhf`](https://scikit-hep.org/pyhf/) + [`cabinetry`](https://iris-hep.org/projects/cabinetry.html)
-
----
-# Metadiff
-
-.kol-1-3[
-- Real world high energy physics analyses have various challenges:
-   - Computations highly complex chains
-   - Not implementable in a single framework
-   - Asynchronous multi-step procedures
-   - Strong need for distributed computing
-- "Metadiff" allows for passing of gradients .bold[between] different implementations and services
-- Possible solution to allow for distributed computations at scale exploiting gradients
-]
-.kol-2-3.center[
-.width-100[[![metadiff](figures/metadiff.png)](https://indico.cern.ch/event/960587/contributions/4070325/)]
-<br><br>
-Differentiating through PyTorch, JAX, and TensorFlow using FaaS
-]
 
 ---
 # TODO: Analysis Reuse
@@ -1034,6 +1036,41 @@ Please checkout the many resources we have starting with the [website](https://s
 .width-70[[![iris-hep_logo](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
 ]
 ]
+
+---
+# Differentiable Ecosystem
+
+.kol-1-3.center[
+.width-100[[![gradhep](https://avatars1.githubusercontent.com/u/65067820)](https://hepsoftwarefoundation.org/activities/differentiablecomputing.html)]
+
+[gradhep](https://hepsoftwarefoundation.org/activities/differentiablecomputing.html)
+]
+.kol-1-3.center[
+.width-100[[![neos_logo](https://raw.githubusercontent.com/gradhep/neos/master/nbs/assets/neos_logo.png)](https://github.com/gradhep/neos)]
+
+[neos](https://github.com/gradhep/neos), [INFERNO](https://inspirehep.net/literature/1677673)
+]
+.kol-1-3.center[
+<br><br>
+.width-100[[![MLE_grad_map_full](figures/Acts_autodiff_talk.png)](https://indico.cern.ch/event/941278/contributions/4084835/)]
+
+<br><br><br>
+[ACTS](https://iris-hep.org/projects/acts.html)
+]
+
+<br>
+.kol-1-1[
+.bold.center[Groups, libraries, and applications growing rapidly]
+]
+
+---
+# Gordon's talk at MODE
+
+* https://indico.cern.ch/event/1242538/contributions/5432836/
+* Shows marrying cuts and DNNs now
+* Follow up with Jerry on their question
+   - c.f. https://openreview.net/forum?id=JZMR727O29
+
 ---
 # References
 
