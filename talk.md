@@ -661,7 +661,7 @@ class: focus-slide, center
 - Need differentiable analogue to non-differentiable cut
 - Weight events using activation function of sigmoid
 
-.center[$\left(1 + e^{-\alpha(x-c)}\right)^{-1}$]
+.center[$w=\left(1 + e^{-\alpha(x-c)}\right)^{-1}$]
 
 - Event far .italic[below] cut: $w \to 0$
 - Event far .italic[above] cut: $w \to 1$
