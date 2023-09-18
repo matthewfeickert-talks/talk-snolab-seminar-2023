@@ -933,7 +933,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 # Analysis Reuse
 
 .large[
-* LHC data and analyses done at the LHC are unique physics range
+* Data and analyses done at the LHC are unique physics range
 * [RECAST](https://github.com/recast-hep/recast-atlas) has been implemented in ATLAS as an enabling technology
 * Resulting in ATLAS PUB notes extending the physics reach of original publications
 ]
