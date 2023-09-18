@@ -492,10 +492,8 @@ $$
 ---
 # Differentiable Programming
 
-<br>
-
 .grid[
-.kol-1-2[
+.kol-1-2.large[
 - Allows writing fully differentiable programs that are efficient and accurate
 - Resulting system can be optimized end-to-end using efficient gradient-based optimization algorithms
    - Exploit advances in deep learning
@@ -505,6 +503,7 @@ $$
    - Binning, sorting, cuts
 ]
 .kol-1-2[
+<br><br>
 .center.width-100[[![Snowmass_LOI](figures/Snowmass_LOI.png)](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
 .center[[Snowmass 2021 LOI](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
 ]
