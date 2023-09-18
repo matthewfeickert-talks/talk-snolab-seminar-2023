@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt  # noqa
 
 pyhf.set_backend("jax")
 
-model = pyhf.simplemodels.hepdata_like(
-    signal_data=[5.0], bkg_data=[10.0], bkg_uncerts=[3.5]
+model = pyhf.simplemodels.uncorrelated_background(
+    signal=[5.0], bkg=[10.0], bkg_uncertainty=[3.5]
 )
 pars = jnp.array(model.config.suggested_init())
 observations = [15.0]
