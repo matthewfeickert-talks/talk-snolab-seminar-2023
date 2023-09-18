@@ -379,33 +379,6 @@ In his [2022 PyHEP topical meeting update](https://indico.cern.ch/event/1140031/
 ]
 
 ---
-# Goals of Physics Analysis at the LHC
-
-.kol-1-1[
-.kol-1-3.center[
-.width-100[[![ATLAS_Higgs_discovery](figures/ATLAS_Higgs_discovery.png)](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/HIGG-2012-27/)]
-Search for new physics
-]
-.kol-1-3.center[
-<br>
-.width-100[[![CMS-PAS-HIG-19-004](figures/CMS-PAS-HIG-19-004.png)](http://cms-results.web.cern.ch/cms-results/public-results/superseded/HIG-19-004/index.html)]
-
-<br>
-Make precision measurements
-]
-.kol-1-3.center[
-.width-110[[![SUSY-2018-31_limit](figures/SUSY-2018-31_limit.png)](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2018-31/)]
-
-Provide constraints on models through setting best limits
-]
-]
-
-- All require .bold[building statistical models] and .bold[fitting models] to data to perform statistical inference
-- Model complexity can be huge for complicated searches (hundreds of parameters + systematics)
-- **Problem:** Time to fit can be .bold[literally days] (for MLE fits, worse if pseudoexperiments required)
-- .blue[Goal:] Empower analysts with fast fits and expressive models
-
----
 # Gradients as Computational Tools
 
 - As we'll see later, having access to the gradient while performing minimization is highly beneficial!
@@ -509,12 +482,54 @@ $$
 ]
 ]
 
+---
+# Why do this in physics?
+
+.footnote[Taking a [slide](https://indico.ph.tum.de/event/7113/contributions/7705/) from Lukas Heinrich]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <img src="figures/freeman-dyson.png"; width=60%>
+</p>
+]
+.kol-1-2.huge[
+<br><br>
+.bold[New directions in science are launched by new tools much more often than by new concepts.] &mdash; Freeman Dyson
+]
+
 
 ---
 class: focus-slide, center
 # Case study:<br> Automatic differentiation improving analyses
 
 .huge.bold.center[Application of automatic differentiation in `pyhf`]
+
+---
+# Goals of Physics Analysis at the LHC
+
+.kol-1-1[
+.kol-1-3.center[
+.width-100[[![ATLAS_Higgs_discovery](figures/ATLAS_Higgs_discovery.png)](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/HIGG-2012-27/)]
+Search for new physics
+]
+.kol-1-3.center[
+<br>
+.width-100[[![CMS-PAS-HIG-19-004](figures/CMS-PAS-HIG-19-004.png)](http://cms-results.web.cern.ch/cms-results/public-results/superseded/HIG-19-004/index.html)]
+
+<br>
+Make precision measurements
+]
+.kol-1-3.center[
+.width-110[[![SUSY-2018-31_limit](figures/SUSY-2018-31_limit.png)](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2018-31/)]
+
+Provide constraints on models through setting best limits
+]
+]
+
+- All require .bold[building statistical models] and .bold[fitting models] to data to perform statistical inference
+- Model complexity can be huge for complicated searches (hundreds of parameters + systematics)
+- **Problem:** Time to fit can be .bold[literally days] (for MLE fits, worse if pseudoexperiments required)
+- .blue[Goal:] Empower analysts with fast fits and expressive models
 
 ---
 # HistFactory Model
@@ -849,21 +864,6 @@ class: focus-slide, center
 .huge.bold.center[Differentiable analyses at LHC scale]
 
 ---
-# Why do this?
-
-.footnote[Taking a [slide](https://indico.ph.tum.de/event/7113/contributions/7705/) from Lukas Heinrich]
-
-.kol-1-2[
-<p style="text-align:center;">
-   <img src="figures/freeman-dyson.png"; width=60%>
-</p>
-]
-.kol-1-2.huge[
-<br><br>
-.bold[New directions in science are launched by new tools much more often than by new concepts.] &mdash; Freeman Dyson
-]
-
----
 # Scaling is reasonable
 
 From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming for physics engagement with the broader community showed multiple large scale workflows
@@ -889,7 +889,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ---
 # Gradient Passing
 
-.kol-2-5[
+.kol-2-5.code-large[
 - Real world high energy physics analyses have various challenges:
    - Computations highly complex chains
    - Not implementable in a single framework
@@ -900,6 +900,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 - Possible solution to allow for distributed computations at scale exploiting gradients
 ]
 .kol-3-5.center[
+<br>
 .width-100[[![metadiff](figures/metadiff.png)](https://indico.cern.ch/event/960587/contributions/4070325/)]
 .caption[[Differentiating through PyTorch, JAX, and TensorFlow using FaaS](https://indico.cern.ch/event/960587/contributions/4070325/), Lukas Heinrich]
 ]
