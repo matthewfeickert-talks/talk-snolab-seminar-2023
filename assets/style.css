@@ -124,6 +124,10 @@ body {
     font-size: 1em;
 }
 
+.code-large {
+    font-size: 1.1em;
+}
+
 .large {
     font-size: 1.2em;
 }

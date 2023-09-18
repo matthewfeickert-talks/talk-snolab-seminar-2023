@@ -621,26 +621,30 @@ class: focus-slide, center
 
 ---
 # Discriminate Signal and Background
-
-- Counting experiment for presence of signal process
-- Place discriminate cut on observable $x$ to maximize significance
+<!--  -->
+* Counting experiment for presence of signal process
+* Place discriminate cut on observable $x$ to maximize significance
    - Significance: $\sqrt{2 (S+B) \log(1 + \frac{S}{B})-2S}$ (for small $S/B$: significance $\to S/\sqrt{B}$)
 
 .footnote[Example inspired by Alexander Held's [example of a differentiable analysis](https://github.com/alexander-held/differentiable-analysis-example/)]
 
 .kol-1-2.center[
-.width-100[![signal_background_shapes](figures/signal_background_shapes.png)]
+<p style="text-align:center;">
+   <img src="figures/signal_background_shapes.png"; width=100%>
+</p>
 ]
 .kol-1-2.center[
-.width-100[![signal_background_stacked](figures/signal_background_stacked.png)]
+<p style="text-align:center;">
+   <img src="figures/signal_background_stacked.png"; width=100%>
+</p>
 ]
 
 ---
 # Traditionally: Scan across cut values
-
+<!--  -->
 - Set baseline cut at $x=0$ (accept everything)
 - Step along cut values in $x$ and calculate significance at each cut. Keep maximum.
-
+<!--  -->
 .kol-1-2.center[
 .width-100[![signal_background_stacked](figures/signal_background_stacked.png)]
 ]
@@ -653,9 +657,7 @@ class: focus-slide, center
 ---
 # Differentiable Approach
 
-<br>
-
-.kol-1-2[
+.kol-1-2.large[
 - Need differentiable analogue to non-differentiable cut
 - Weight events using activation function of sigmoid
 
@@ -667,15 +669,14 @@ class: focus-slide, center
    - Larger $\alpha$ more cut-like
 ]
 .kol-1-2[
+<br>
 .width-100[![sigmoid_event_weights](figures/sigmoid_event_weights.png)]
 ]
 
 ---
 # Compare Hard Cuts vs. Differentiable
 
-<br>
-
-.kol-1-2[
+.kol-1-2.large[
 - For hard cuts the significance was calculated by applying the cut and than using the remaining $S$ and $B$ events
 - But for the differentiable model there aren't cuts, so approximate cuts with the sigmoid approach and weights
 - Comparing the two methods shows good agreement
@@ -683,15 +684,14 @@ class: focus-slide, center
    - But can become unstable, so tunable
 ]
 .kol-1-2.center[
+<br>
 .width-100[![significance_scan_compare](figures/significance_scan_compare.png)]
 ]
 
 ---
 # Compare Hard Cuts vs. Differentiable
 
-<br>
-
-.kol-1-2[
+.kol-1-2.large[
 - For hard cuts the significance was calculated by applying the cut and then using the remaining $S$ and $B$ events
 - But for the differentiable model there aren't cuts, so approximate cuts with the sigmoid approach and weights
 - Comparing the two methods shows good agreement
@@ -699,14 +699,14 @@ class: focus-slide, center
    - But can become unstable, so tunable
 ]
 .kol-1-2.center[
+<br>
 .width-100[![significance_scan_compare_high_alpha](figures/significance_scan_compare_high_alpha.png)]
 ]
 
 ---
 # Accessing the Gradient
 
-.kol-2-5[
-<br><br>
+.kol-2-5.large[
 - Most importantly though, with the differentiable model we have access to the gradient
    - $\partial_{x} f(x)$
 - So can find the maximum significance at the point where the gradient of the significance is zero
@@ -714,14 +714,15 @@ class: focus-slide, center
 - With the gradient in hand this cries out for automated optimization!
 ]
 .kol-3-5.center[
-.width-90[![significance_gradient](figures/significance_gradient.png)]
+<p style="text-align:center;">
+   <img src="figures/significance_gradient.png"; width=90%>
+</p>
 ]
 
 ---
 # Automated Optimzation
 
-.kol-2-5[
-<br><br>
+.kol-2-5.large[
 - With a simple gradient descent algorithm can easily automate the significance optimization
 - For this toy example, obviously less efficient then cut and count scan
 - Gradient methods apply well in higher dimensional problems
