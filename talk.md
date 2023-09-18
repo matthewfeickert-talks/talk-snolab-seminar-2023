@@ -583,10 +583,14 @@ $$
 .footnote[Example adapted from [Lukas Heinrich's PyHEP 2020 tutorial](https://indico.cern.ch/event/882824/timetable/#45-introduction-to-automatic-d)]
 
 .kol-1-2.center[
-.width-90[![carbon_plot_MLE_grads](figures/carbon_plot_MLE_grads.png)]
+<p style="text-align:center;">
+   <img src="figures/carbon_plot_MLE_grads.png"; width=85%>
+</p>
 ]
 .kol-1-2.center[
-.width-90[![MLE_grad_map_full](figures/MLE_grad_map_full.png)]
+<p style="text-align:center;">
+   <img src="figures/MLE_grad_map_full.png"; width=90%>
+</p>
 ]
 
 .bold.center[Having access to the gradients makes the fit orders of magnitude faster than finite difference]
@@ -597,10 +601,14 @@ $$
 .footnote[Example adapted from [Lukas Heinrich's PyHEP 2020 tutorial](https://indico.cern.ch/event/882824/timetable/#45-introduction-to-automatic-d)]
 
 .kol-1-2.center[
-.width-90[![carbon_plot_MLE_grads](figures/carbon_plot_MLE_grads.png)]
+<p style="text-align:center;">
+   <img src="figures/carbon_plot_MLE_grads.png"; width=85%>
+</p>
 ]
 .kol-1-2.center[
-.width-90[![MLE_grad_map_full](figures/MLE_grad_map.png)]
+<p style="text-align:center;">
+   <img src="figures/MLE_grad_map.png"; width=90%>
+</p>
 ]
 
 .bold.center[Having access to the gradients makes the fit orders of magnitude faster than finite difference]
