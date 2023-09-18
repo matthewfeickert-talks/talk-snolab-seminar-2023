@@ -89,15 +89,15 @@ class: focus-slide, center
 <!--  -->
 <p style="text-align:center;">
    <a href="https://hilumilhc.web.cern.ch/content/hl-lhc-project">
-      <img src="figures/HL-LHC_schedule.jpg"; width=70%>
+      <img src="figures/HL-LHC_schedule.png"; width=75%>
    </a>
 </p>
-
+<!--  -->
+.large[
 * Increase in luminosity of roughly order of magnitude
-   - $3$ - $4$ $\mathrm{ab}^{-1}$ (factor of 20-25 from Run-2)
-* More data means able to probe regions of parameter space well for physics searches
-* Challenge to be able to take, record, store, and analyze the data
-* Have only a few years to figure this out
+   - $3$ - $4$ $\mathrm{ab}^{-1}$ (factor of 20-25 from Run-2 delivered)
+* Challenge to be able to .bold[record, store, and analyze] the data
+]
 
 ---
 # Opportunities and Challenges of the HL-LHC
