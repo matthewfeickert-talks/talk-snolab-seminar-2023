@@ -148,31 +148,6 @@ class: focus-slide, center
 .center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
 
 ---
-# Opportunities and Challenges of the HL-LHC
-
-.center.large[Challenge to be able to .bold[record, store, and analyze] the data]
-
-.kol-1-2[
-<p style="text-align:center;">
-   <a href="https://cds.cern.ch/record/2803119?ln=en">
-      <img src="figures/HL-LHC-disk-projections-atlas.png"; width=95%>
-   </a>
-</p>
-]
-.kol-1-2[
-<br>
-<p style="text-align:center;">
-   <a href="https://cds.cern.ch/record/2815292?ln=en">
-      <img src="figures/HL-LHC-disk-projections-cms.png"; width=100%>
-   </a>
-</p>
-]
-
-.center.large[Projected .bold[required disk usage] for HL-LHC (want R&D below budget line)]
-
-.center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
-
----
 # IRIS-HEP
 
 .kol-1-2[
@@ -868,7 +843,7 @@ class: focus-slide, center
 
 From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming for physics engagement with the broader community showed multiple large scale workflows
 
-.bold[If] things are differentiable, shouldn't be scared of .bold[large-scale codebases and applications]
+.center[.bold[If] things are differentiable, shouldn't be scared of .bold[large-scale codebases and applications]]
 
 .kol-1-2[
 <p style="text-align:center;">
@@ -906,48 +881,116 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 ]
 
 ---
+# Scaling and Analysis Reuse
+
+<p style="text-align:center;">
+   <a href="https://iris-hep.org/as.html">
+      <img src="figures/cabinetry-vertical-slice.png"; width=80%>
+   </a>
+</p>
+
+.center[Revisiting IRIS-HEP Analysis Systems in the context of distributed scaling and analysis reuse]
+
+---
 # Analysis Reuse
 
-*
+.large[
+* LHC data and analyses done at the LHC are unique physics range
+* RECAST has been implemented in ATLAS as an enabling technology
+* Resulting in ATLAS PUB notes extending the physics reach of original publications
+]
+
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2019-032/">
+      <img src="figures/ATL-PHYS-PUB-2019-032.png"; width=100%>
+   </a>
+</p>
+.caption[[ATL-PHYS-PUB-2019-032](https://inspirehep.net/literature/1795215)]
+]
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2020-007/">
+      <img src="figures/ATL-PHYS-PUB-2020-007.png"; width=100%>
+   </a>
+</p>
+.caption[[ATL-PHYS-PUB-2020-007](https://inspirehep.net/literature/1795203)]
+]
+.kol-1-3[
+<p style="text-align:center;">
+   <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2021-020/">
+      <img src="figures/ATL-PHYS-PUB-2021-020.png"; width=90%>
+   </a>
+</p>
+.caption[[ATL-PHYS-PUB-2021-020](https://inspirehep.net/literature/1870397)]
+]
 
 ---
-# Analysis Systems through Lens of Stat Inference
+# ML + reinterpretation: Active learning
 
-.center.width-80[![cabinetry_vertical_slice](figures/cabinetry-vertical-slice.png)]
-
-- Accelerating fitting (reducing time to insight (statistical inference)!)
-- [Analysis Systems](https://iris-hep.org/as.html) pipeline has beta infrastructure for the final statistical inference stages with [`pyhf`](https://scikit-hep.org/pyhf/) + [`cabinetry`](https://iris-hep.org/projects/cabinetry.html)
-
----
-# TODO: Analysis Reuse
-
-* X
+.kol-1-2[
+.huge[
+Leveraging [REANA](https://www.reana.io/) reproducible research data analysis platform to run distributed ML and analysis workflows at scale until exclusion contour learned
+]
+<p style="text-align:center;">
+   <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
+      <img src="figures/exclusion-learning.png"; width=80%>
+   </a>
+</p>
+.caption[[ Christian Weber, Reinterpretation Forum 2023](https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/)]
+]
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
+      <img src="figures/active-learning-workflow.png"; width=100%>
+   </a>
+</p>
+.caption[[ATL-PHYS-PUB-2023-010](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2023-010/)]
+]
 
 ---
 # Summary
 
-- Automatic differentiation gives a powerful tool in the form of differentiable programming
-   - Exploitation of .bold[gradient for optimization]
-   - .bold[End-to-end optimization] of systems and analyses
-   - Update analysis optimizaiton from .bold[grad]uate student descent to .bold[gradient] descent. &mdash; Matt Bellis
-- Scalable workflows are a requirement for LHC scale analyses
-   - Distributed .bold[Functions as a Service] offer powerful scaling
-   - Heterogeneous architectures can be employed
-   - Metadiff can allow for .bold[differentiating across systems] using FaaS
-- Ongoing areas of rapid work in IRIS-HEP, gradhep, and CERN
-   - Growing .bold[ecosystem] of work and tools
+.huge[
+* Many challenges and opportunities ahead at the HL-LHC
+* Engaging the broader scientific open source community has been a boon for particle physics tooling
+* Automatic differentiation gives a powerful tool in the form of differentiable programming
+* Scalable and reusable analysis workflows allow leveraging our tools
+]
 
-.kol-1-2.center[
-.width-45[![MLE_grad_map_full](figures/MLE_grad_map_full.png)]
-]
-.kol-1-2.center[
-.width-70[[![metadiff](figures/metadiff.png)](https://indico.cern.ch/event/960587/contributions/4070325/)]
-]
+<p style="text-align:center;">
+   <img src="figures/MLE_grad_map_full.png"; width=20%>
+</p>
 
 ---
 class: end-slide, center
 
 .large[Backup]
+
+---
+# Opportunities and Challenges of the HL-LHC
+
+.center.large[Challenge to be able to .bold[record, store, and analyze] the data]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/2803119?ln=en">
+      <img src="figures/HL-LHC-disk-projections-atlas.png"; width=95%>
+   </a>
+</p>
+]
+.kol-1-2[
+<br>
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/2815292?ln=en">
+      <img src="figures/HL-LHC-disk-projections-cms.png"; width=100%>
+   </a>
+</p>
+]
+
+.center.large[Projected .bold[required disk usage] for HL-LHC (want R&D below budget line)]
+
+.center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
 
 ---
 # Automatic Differentiation: Forward and Reverse
