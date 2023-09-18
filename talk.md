@@ -9,11 +9,11 @@ count: false
 <br><br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[SNOLAB Seminar Series](FILL IN WHEN HAVE URL)
+[SNOLAB Seminar Series](https://matthewfeickert-talks.github.io/talk-snolab-seminar-2023/)
 
 September 18th, 2023
 
----
+<!-- ---
 # Talk Notes
 
 * Seminars are held on Mondays at 13:00 Eastern time (12:00 US Central)
@@ -27,7 +27,7 @@ September 18th, 2023
    - Building at scale with IRIS-HEP
    - Automatic differentiation
    - Analysis reuse brings wins (RECAST/REANA)
-* .bold[Abstract:] As the High-Luminosity Large Hadron Collider (HL-LHC) era looms of horizon for physics analysis at the LHC experiments there are multiple challenges to be overcome to efficiently analyze and extract the most scientific value out of these unique and valuable data. In this seminar I will present a high-level overview of how applications of data science tools from the modern scientific open source community, techniques and applications from the field of automatic differentiation, and strategies for enabling analysis reuse can be leveraged to achieve robust data analysis workflows at the HL-LHC scale. I will also offer proposals for how these tools and techniques can be applied beyond the particle physics community to the broader scientific computing landscape.
+* .bold[Abstract:] As the High-Luminosity Large Hadron Collider (HL-LHC) era looms of horizon for physics analysis at the LHC experiments there are multiple challenges to be overcome to efficiently analyze and extract the most scientific value out of these unique and valuable data. In this seminar I will present a high-level overview of how applications of data science tools from the modern scientific open source community, techniques and applications from the field of automatic differentiation, and strategies for enabling analysis reuse can be leveraged to achieve robust data analysis workflows at the HL-LHC scale. I will also offer proposals for how these tools and techniques can be applied beyond the particle physics community to the broader scientific computing landscape. -->
 
 <!-- ---
 class: focus-slide, center
@@ -44,8 +44,8 @@ class: focus-slide, center
 
 .kol-2-3[
 .huge[
-* My role as a physicist provides a privileged opportunity to walk among multiple scientific communities
-* Care about .bold[reusable] open science to be able to push physics forward at the .bold[community scale]
+* Privileged opportunity to work among multiple scientific communities
+* Care about .bold[reusable] open science to be able to push particle physics forward at the .bold[community scale]
    - The challenges of the next decade provide wonderful research environments that will require interdisciplinary knowledge exchange to fully attack
 * Today we'll share .bold[high level] views of deeply .bold[technical problems]
 ]
@@ -354,6 +354,21 @@ In his [2022 PyHEP topical meeting update](https://indico.cern.ch/event/1140031/
 ]
 
 ---
+# Automatic differentiation as tool for physics
+
+.footnote[Taking a [slide](https://indico.ph.tum.de/event/7113/contributions/7705/) from Lukas Heinrich]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <img src="figures/freeman-dyson.png"; width=60%>
+</p>
+]
+.kol-1-2.huge[
+<br><br>
+.bold[New directions in science are launched by new tools much more often than by new concepts.] &mdash; Freeman Dyson
+]
+
+---
 # Gradients as Computational Tools
 
 - As we'll see later, having access to the gradient while performing minimization is highly beneficial!
@@ -432,12 +447,6 @@ $$
 ]
 
 ---
-# Automatic Differentiation
-
-* TODO
-* Explain forward and backwards modes
-
----
 # Differentiable Programming
 
 .grid[
@@ -455,21 +464,6 @@ $$
 .center.width-100[[![Snowmass_LOI](figures/Snowmass_LOI.png)](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
 .center[[Snowmass 2021 LOI](https://www.snowmass21.org/docs/files/summaries/CompF/SNOWMASS21-CompF5_CompF3_Gordon_Watts-046.pdf)]
 ]
-]
-
----
-# Why do this in physics?
-
-.footnote[Taking a [slide](https://indico.ph.tum.de/event/7113/contributions/7705/) from Lukas Heinrich]
-
-.kol-1-2[
-<p style="text-align:center;">
-   <img src="figures/freeman-dyson.png"; width=60%>
-</p>
-]
-.kol-1-2.huge[
-<br><br>
-.bold[New directions in science are launched by new tools much more often than by new concepts.] &mdash; Freeman Dyson
 ]
 
 
@@ -946,6 +940,16 @@ Leveraging [REANA](https://www.reana.io/) reproducible research data analysis pl
    </a>
 </p>
 .caption[[ATL-PHYS-PUB-2023-010](https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2023-010/)]
+]
+
+---
+# Applications beyond HEP
+
+.huge[
+* General techniques and technologies applied to HEP problems, but not constrained to them
+   - Automatic differentiation is a rich field of research unto itself
+* Engagement with the broader scientific open source community
+* Planning for analysis reuse brings flexibility to leverage tooling
 ]
 
 ---
