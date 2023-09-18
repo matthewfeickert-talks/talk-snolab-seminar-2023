@@ -120,6 +120,33 @@ class: focus-slide, center
 </p>
 ]
 
+.center.large[Projected .bold[required compute usage] for HL-LHC (want R&D below budget line)]
+
+.center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
+
+---
+# Opportunities and Challenges of the HL-LHC
+
+.center.large[Challenge to be able to .bold[record, store, and analyze] the data]
+
+.kol-1-2[
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/2803119?ln=en">
+      <img src="figures/HL-LHC-disk-projections-atlas.png"; width=95%>
+   </a>
+</p>
+]
+.kol-1-2[
+<br>
+<p style="text-align:center;">
+   <a href="https://cds.cern.ch/record/2815292?ln=en">
+      <img src="figures/HL-LHC-disk-projections-cms.png"; width=100%>
+   </a>
+</p>
+]
+
+.center.large[Projected .bold[required disk usage] for HL-LHC (want R&D below budget line)]
+
 .center[[ATLAS](https://cds.cern.ch/record/2803119?ln=en) and [CMS](https://cds.cern.ch/record/2815292?ln=en) software and computing reviews]
 
 ---
