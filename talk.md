@@ -40,6 +40,29 @@ class: focus-slide, center
 .huge.center.bold[Show live (toy) example of how easy it can be to get started] -->
 
 ---
+# Introduction
+
+.kol-2-3[
+.huge[
+* My role as a physicist provides a privileged opportunity to walk among multiple scientific communities
+* Care about .bold[reusable] open science to be able to push physics forward at the .bold[community scale]
+   - The challenges of the next decade provide wonderful research environments that will require interdisciplinary knowledge exchange to fully attack
+* Today we'll share .bold[high level] views of deeply .bold[technical problems]
+]
+]
+.kol-1-3[
+.center.width-65[[![logo_IRIS-HEP](assets/logos/logo_institution.png)](https://datascience.wisc.edu/institute/)]
+
+.center.width-40[[![logo_ATLAS](assets/logos/logo_ATLAS.png)](https://atlas.cern/)]
+
+.center.width-40[[![logo_IRIS-HEP](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+
+.center.width-30[[![logo_Scikit-HEP](figures/scikit-hep-logo.svg)](https://scikit-hep.org/)]
+
+.center.width-30[[![logo_joss](figures/joss_logo.png)](https://joss.theoj.org/)]
+]
+
+---
 # High Energy Physics at the LHC
 
 .kol-1-2.center[
