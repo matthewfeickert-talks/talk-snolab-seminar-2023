@@ -934,7 +934,7 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 
 .large[
 * LHC data and analyses done at the LHC are unique physics range
-* RECAST has been implemented in ATLAS as an enabling technology
+* [RECAST](https://github.com/recast-hep/recast-atlas) has been implemented in ATLAS as an enabling technology
 * Resulting in ATLAS PUB notes extending the physics reach of original publications
 ]
 
@@ -968,11 +968,11 @@ From the 2023 MIAPbP Workshop on on Differentiable and Probabilistic Programming
 
 .kol-1-2[
 .huge[
-Leveraging [REANA](https://www.reana.io/) reproducible research data analysis platform to run distributed ML and analysis workflows at scale until exclusion contour learned
+Leveraging [REANA](https://www.reana.io/) reproducible research data analysis platform possible to run distributed ML and analysis workflows at scale
 ]
 <p style="text-align:center;">
    <a href="https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/">
-      <img src="figures/exclusion-learning.png"; width=80%>
+      <img src="figures/exclusion-learning.png"; width=90%>
    </a>
 </p>
 .caption[[ Christian Weber, Reinterpretation Forum 2023](https://conference.ippp.dur.ac.uk/event/1178/contributions/6449/)]
@@ -1177,30 +1177,10 @@ Please checkout the many resources we have starting with the [website](https://s
 ]
 
 ---
-# Gordon's talk at MODE
-
-* https://indico.cern.ch/event/1242538/contributions/5432836/
-* Shows marrying cuts and DNNs now
-* Follow up with Jerry on their question
-   - c.f. https://openreview.net/forum?id=JZMR727O29
-
----
 # References
 
 1. Lukas Heinrich, .italic[[Distributed Gradients for Differentiable Analysis](https://indico.cern.ch/event/960587/contributions/4070325/)], [Future Analysis Systems and Facilities Workshop](https://indico.cern.ch/event/960587/), 2020.
 2. Jim Pivarski, .italic[[History and Adoption of Programming Languages in NHEP](https://github.com/jpivarski-talks/2022-02-08-jlab-roundtable-language-history)], [Software & Computing Round Table](https://indico.jlab.org/event/505/#day-2022-02-08), 2022.
-
----
-# References
-
-1. F. James, Y. Perrin, L. Lyons, .italic[[Workshop on confidence limits: Proceedings](http://inspirehep.net/record/534129)], 2000.
-2. ROOT collaboration, K. Cranmer, G. Lewis, L. Moneta, A. Shibata and W. Verkerke, .italic[[HistFactory: A tool for creating statistical models for use with RooFit and RooStats](http://inspirehep.net/record/1236448)], 2012.
-3. L. Heinrich, H. Schulz, J. Turner and Y. Zhou, .italic[[Constraining $A_{4}$ Leptonic Flavour Model Parameters at Colliders and Beyond](https://inspirehep.net/record/1698425)], 2018.
-4. A. Read, .italic[[Modified frequentist analysis of search results (the $\\mathrm{CL}_{s}$ method)](http://cds.cern.ch/record/451614)], 2000.
-5. K. Cranmer, .italic[[CERN Latin-American School of High-Energy Physics: Statistics for Particle Physicists](https://indico.cern.ch/event/208901/contributions/1501047/)], 2013.
-6. ATLAS collaboration, .italic[[Search for bottom-squark pair production with the ATLAS detector in final states containing Higgs bosons, b-jets and missing transverse momentum](http://inspirehep.net/record/1748602)], 2019
-7. ATLAS collaboration, .italic[[Reproducing searches for new physics with the ATLAS experiment through publication of full statistical likelihoods](https://cds.cern.ch/record/2684863)], 2019
-8. ATLAS collaboration, .italic[[Search for bottom-squark pair production with the ATLAS detector in final states containing Higgs bosons, b-jets and missing transverse momentum: HEPData entry](https://www.hepdata.net/record/ins1748602)], 2019
 
 ---
 
