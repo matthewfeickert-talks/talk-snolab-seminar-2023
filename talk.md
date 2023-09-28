@@ -13,32 +13,6 @@ count: false
 
 September 18th, 2023
 
-<!-- ---
-# Talk Notes
-
-* Seminars are held on Mondays at 13:00 Eastern time (12:00 US Central)
-* .bold[Talk time:]
-   - Talk: 50 minutes
-   - Questions: 10 minutes
-* .bold[Audience:] audience is quite broad, ranging from undergraduate students to senior scientists
-* .bold[Topics:]
-   - Data science tools
-   - Open source community
-   - Building at scale with IRIS-HEP
-   - Automatic differentiation
-   - Analysis reuse brings wins (RECAST/REANA)
-* .bold[Abstract:] As the High-Luminosity Large Hadron Collider (HL-LHC) era looms of horizon for physics analysis at the LHC experiments there are multiple challenges to be overcome to efficiently analyze and extract the most scientific value out of these unique and valuable data. In this seminar I will present a high-level overview of how applications of data science tools from the modern scientific open source community, techniques and applications from the field of automatic differentiation, and strategies for enabling analysis reuse can be leveraged to achieve robust data analysis workflows at the HL-LHC scale. I will also offer proposals for how these tools and techniques can be applied beyond the particle physics community to the broader scientific computing landscape. -->
-
-<!-- ---
-class: focus-slide, center
-# Goals for today's discussion
-
-.huge.center.bold[Point out some of the ongoing work that you might be interested in]
-<br>
-<br>
-<br>
-.huge.center.bold[Show live (toy) example of how easy it can be to get started] -->
-
 ---
 # Introduction
 
